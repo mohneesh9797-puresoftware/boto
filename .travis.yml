@@ -1,11 +1,9 @@
 language: python
+arch:
+    - amd64
+    - arm64
 python:
-  - "2.6"
-  - "2.7"
-  - "3.3"
-  - "3.4"
   - "3.5"
-  - "pypy"
 env:
   - BOTO_CONFIG=/tmp/nowhere
 before_install:
